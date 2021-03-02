@@ -8,7 +8,17 @@ namespace KZW.Web.Controllers
 {
     public class GoodsWebController : Controller
     {
-        public IActionResult Index()
+        public IActionResult ActivePage()
+        {
+            return View();
+        }
+
+        public IActionResult Shop1Page()
+        {
+            return View();
+        }
+
+        public IActionResult BuyPage()
         {
             return View();
         }
